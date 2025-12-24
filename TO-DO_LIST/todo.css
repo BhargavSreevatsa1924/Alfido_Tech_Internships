@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: large;
+  }
+  
+  body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6985ff, #925ac9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app {
+    background:rgba(2,6,23,.95);
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+  }
+  
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  
+  .input-box {
+    display: flex;
+    gap: 8px;
+  }
+  
+  input, select {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #667eea;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #5563d6;
+  }
+  
+  ol {
+    list-style-type: none;
+    margin-top: 20px;
+  }
+  
+  li {
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background: #f4f4f4;
+  }
+  
+  li.done span {
+    text-decoration: line-through;
+    color: #777;
+  }
+  
+  /* Priority colors */
+  .high { border-left: 6px solid #e63946; }
+  .medium { border-left: 6px solid #f4a261; }
+  .low { border-left: 6px solid #2a9d8f; }
+  
+  .task-actions button {
+    background: none;
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 480px) {
+    .input-box {
+      flex-direction: column;
+    }
+  }
+  

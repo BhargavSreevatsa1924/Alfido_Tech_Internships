@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+
+  <!-- Background -->
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="#0f172a"></rect>
+
+  <!-- Checklist lines -->
+  <line x1="22" y1="22" x2="44" y2="22" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"></line>
+  <line x1="22" y1="32" x2="44" y2="32" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"></line>
+
+  <!-- Checkmark box -->
+  <rect x="14" y="40" width="12" height="12" rx="3" fill="none" stroke="#22c55e" stroke-width="3"></rect>
+
+  <!-- Checkmark -->
+  <path d="M16 46 L19 49 L25 43" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
