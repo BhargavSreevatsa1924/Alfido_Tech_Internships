@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhargav Sreevatsa</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- GSAP -->
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</head>
+
+<body>
+    <div id="scroll-progress"></div>
+    <div class="cursor-glow"></div>
+
+    <div class="firstpage" id="first">
+        <div class="header">
+            <div class="menu-section">
+                <a href="pdfs/BhargavSreevatsa_KNG_Resume.pdf" download id="resume" target="_blank"><button
+                        type="button">RESUME</button></a>
+                <a href="#first"><button type="button">.Home</button></a>
+                <a href="#about"><button type="button">.About</button></a>
+                <a href="#skills"><button type="button">.Skills</button></a>
+                <a href="#projects"><button type="button">.Projects</button></a>
+                <a href="#contact"><button type="button">.Contact</button></a>
+            </div>
+        </div>
+
+        <div class="intro">
+            <div class="info">
+                <p id="p1">Hello, I am</p>
+                <h1 class="ai-name"></h1>
+                <h3 class="reveal-text">Fronted Developer</h3>
+                <p class="reveal-text">I create Wonderful,Interactive and Intuitive Web Experiences.</p>
+                <p class="reveal-text">I am Passionate about Computers and Technology.</p>
+                <a href="#" class="reveal-text"><button type="button" id="mywork">View my Work</button></a>
+                <a href="#" class="reveal-text"><button type="button" id="touch">Get in Touch</button></a> <br>
+                <a href="https://www.linkedin.com/in/bhargavsreevathsakng/" id="linkedin" class="reveal-text"><i
+                        class="fa">&#xf08c;</i></a>
+                <a href="https://github.com/BhargavSreevatsa1924" id="github" class="reveal-text"><i
+                        class="fa">&#xf09b;</i></a>
+                <a href="mailto:bhargavsreevatsa23@gmail.com" id="mail" class="reveal-text"><i
+                        class="fa">&#xf0e0;</i></a> <br>
+                <!-- Scroll Arrow -->
+                <div class="scroll-container">
+                    <div class="scroll-arrow"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="secondpage reveal" id="about">
+            <h2>Who I Am ?</h2>
+
+            <p>I'm A Sofware Engineer and Frontend developer with <b style="color: chocolate;font-size: 25px;">1.5+
+                    years</b> of experience <br>
+                building web applications that enhance user expeience.I started my journey with passion for tech
+                and on how it works and with time it turned into passionate proffesion.Right Now,I am learning AI and
+                trying to include AI into website in a advanced manner.Whenever Free,I love Contributing to open source
+                projects and learning latest advancements in Web Technology.I am keen at working in contraint and
+                pressure situations that bring best in me.
+            </p>
+
+        </div>
+
+
+
+        <div class="skills reveal" id="skills">
+            <h3>Technologies I Work with</h3>
+            <div class="list">
+                <button type="button">HTML5</button>
+                <button type="button">CSS</button>
+                <button type="button">JavaScript</button>
+                <button type="button">ReactJS</button>
+                <button type="button">GIT</button>
+                <button type="button">Neat Code</button>
+                <button type="button">jQuery</button>
+                <button type="button">Bootstrap</button>
+                <button type="button">NodeJS</button>
+                <button type="button">CrossPlatform Comaptibility</button>
+                <button type="button">Responsive Design</button>
+                <button type="button">npm</button>
+                <button type="button">Restful API</button>
+                <button type="button">JSON</button>
+            </div>
+        </div>
+        <div id="projects" class="reveal">
+            <div id="project-heading">
+                <h2>Projects</h2>
+            </div>
+
+            <div class="card-container">
+
+                <div class="card">
+                    <img src="Images/PingPong.jpeg" alt="Ping Pong Game">
+                    <div class="card-content">
+                        <div class="card-title">Ping Pong Game</div>
+                        <div class="card-desc">JavaScript browser game UI</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Images/PhonePE.jpeg" alt="PhonePe Website">
+                    <div class="card-content">
+                        <div class="card-title">PhonePe Clone</div>
+                        <div class="card-desc">Landing page UI recreation</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Images/Spotify.jpeg" alt="Spotify UI">
+                    <div class="card-content">
+                        <div class="card-title">Spotify UI</div>
+                        <div class="card-desc">Music dashboard dark theme</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form reveal">
+            <section class="contact-container" id="contact">
+                <!-- LEFT -->
+                <div class="contact-info">
+                    <h2>Let's Talk</h2>
+                    <p>
+                        I'm always open to discussing new projects, creative ideas,
+                        or opportunities to be part of your vision. Feel free to reach out!
+                    </p>
+
+                    <div class="info-item">
+                        <i class='bx bx-map'></i>
+                        <span>Bengaluru,India</span>
+                    </div>
+
+                    <div class="info-item">
+                        <i class='bx bx-envelope'></i>
+                        <span>bhargavsreevatsa23@gmail.com</span>
+                    </div>
+
+                    <div class="info-item">
+                        <i class='bx bx-phone'></i>
+                        <span>+91 63032XXXXX</span>
+                    </div>
+
+                    <div class="badge">
+                        <i class='bx bx-check-circle'></i>
+                        Available for freelance work
+                    </div>
+                </div>
+
+                <!-- RIGHT -->
+                <form class="form">
+                    <div class="form-row">
+                        <div class="field">
+                            <label>Your Name</label>
+                            <input type="text" placeholder="Sreenivas">
+                        </div>
+                        <div class="field">
+                            <label>Your Email</label>
+                            <input type="email" placeholder="abc@example.com">
+                        </div>
+                    </div>
+
+                    <div class="field" style="margin-bottom:20px;">
+                        <label>Subject</label>
+                        <input type="text" placeholder="Project Discussion">
+                    </div>
+
+                    <div class="field">
+                        <label>Message</label>
+                        <textarea placeholder="Tell me about your project..."></textarea>
+                    </div>
+
+                    <button class="submit-btn" type="submit">
+                        <i class='bx bx-send'></i>
+                        Send Message
+                    </button>
+                </form>
+            </section>
+
+            <script src="script.js"></script>
+        </div>
+
+        <hr>
+
+        <div class="footer">
+            <footer>
+                <a href="#first">Back To Top</a>
+                <p>Thank you.</p>
+                <h2> &copy; Bhargav Sreevatsa KNG</h2>
+                <p>Crafted with &hearts;</p>
+            </footer>
+        </div>
+
+
+</body>
+
+</html>
